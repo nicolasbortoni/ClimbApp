@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.climbapp"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.climbapp"
@@ -66,4 +66,9 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.5")
+
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.4")
 }
